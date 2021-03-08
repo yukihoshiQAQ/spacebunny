@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>Bunny Gallery</title>
+	<link href="page2stylesheet.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+</head>
+	
+<body>
+	
+	<div id="progressbar"></div>
+	<div id="scrollPath"></div>
+
+	<section class="title">
+		<img src="pics/skystar.jpg" width="1366" height="768" alt="" id="sky"/>
+		<img src="pics/moon.png" width="1366" height="768" alt="" id="moon"/> 
+		<img src="pics/mountain.png" width="1366" height="768" alt="" id="mountain"/>
+		<img src="pics/rabbit.png" width="1366" height="768" alt="" id="rabbit"/> 
+		<h1 id="text">Rabbits in Space</h1>
+	</section>
+
+	<script type="text/javascript">
+		let sky = document.getElementById("sky")
+		let moon = document.getElementById("moon")
+		let mountain = document.getElementById("mountain")
+		let rabbit = document.getElementById("rabbit")
+		let text = document.getElementById("text")
+	
+		window.addEventListener('scroll', function(){
+			var value = window.scrollY;
+
+			sky.style.top = value * 0.5 + 'px';
+			moon.style.left = -value * 0.5 + 'px';
+			mountain.style.top = -value * 0.15 + 'px';
+			rabbit.style.top = value * 0.15 + 'px';
+			text.style.top = value * 1 + 'px';
+		})
+
+		let totalHeight = document.body.scrollHeight - window.innerHeight;
+		window.onscroll = function(){
+		let progressHeight = (window.pageYOffset / totalHeight) * 100;
+		progress.style.height = progressHeight + "%";	
+		}
+	</script>
+
+	<main>
+		
+		<div class="marfusha"><img src="pics/marfusha.jpg" width="295" height="420" alt=""/></div>
+		<div class="moonrabbit"><img src="pics/unnamed.jpg" width="502" height="331" alt=""/></div>
+		<div class="sailormoon"><img src="pics/sailor-screenshot.jpg" width="500" height="300" alt=""/></div>
+		<div class="makanai"><img src="pics/5c226fd60fd83b19dd33560bda9977b953190420181703148.jpg" width="350" height="350" alt=""/></div>
+		<div class="waso"><img src="pics/unnamed (1).jpg" width="350" height="350" alt=""/></div>
+
+		<section class="first">
+			<h2>First Rabbit in Space</h2>
+			<p class="txt">Marfusha (Little Martha) was the first rabbit astronaut launched into space. Along with her sidekicks, the dogs Otvazhnaya (Brave) and Snezhinka (Snowflake), the trio returned from their Soviet-backed suborbital flight in good health in 1959. The image of Marfusha and her canine companions even inspired a special issue Romanian postage stamp in 1959.¹</p>
+		</section>
+
+		<section class="second">
+			<h2>Moon Rabbit</h2>
+			<p class="txt">Observe the full moon sometime and take note of its shadows. If you look at it in a certain way, you may notice that its shape resembles that of a rabbit standing over a mortar.</p>
+
+			<p class="txt">This is the Moon Rabbit or Jade Rabbit. A myth that came from China, legend has it that the rabbit we see serves under the moon goddess and pounds the elixir of life for the immortals. The idea of a rabbit on the moon resonated so well that it spread to other countries under Chinese cultural influence like Japan, Korea and Vietnam, though in their version, the rabbit isn't pounding the elixir of life but simple rice cakes instead.</p>
+
+			<p class="txt">While the Asian version of this legend is the most widespread in modern times, they weren't the only ones who saw the rabbit in ancient times. The Aztecs and other Mesoamerican cultures also saw the Rabbit in the moon (minus mortar) and had their own tales on what it is and how it came to be. One of their most famous legends state that the rabbit we see was thrown there as an insult to the arrogant and cowardly Moon God, so that its luster will not be equal to the noble Sun God's.</p>
+
+			<p class="txt">A famous mythical figure, the Moon Rabbit appears in several popular media, either in the form of the actual creature or as a winking reference to the legend. They're mostly found in Asian media, but there have been sightings in non-Asian countries as well.²</p>
+		</section>
+	
+		<section class="third">
+			<h2>Sailor Moon</h2>
+			<p class="txt">The eponymous Sailor Moon's human name is Usagi Tsukino, a pun on Tsuki no usagi, which means Moon Rabbit in Japanese. Her daughter's name, Chibiusa, means little rabbit.</p>
+
+			<p class="txt">Sailor Moon, is a fictional superheroine who is the main protagonist and title character of the Sailor Moon manga series written by Naoko Takeuchi. She is introduced in chapter #1, "Usagi – Sailor Moon" (originally published in Japan's Nakayoshi magazine on December 28, 1991), as a carefree schoolgirl who can transform into Sailor Moon, the de facto leader of the Sailor Soldiers. Initially believing herself to be an ordinary girl, she is later revealed to be the reincarnated form of the Princess of the Moon Kingdom, and she subsequently discovers her original name, Princess Serenity.³</p>
+		</section>
+		
+		<section class="fourth">
+			<h2>Makanai</h2>
+			<p class="txt">The Japanese cosmetics company, Makanai, has a logo that is a moon rabbit pounding gold, representing abundance of harvest, beauty, and longevity. Makanai was established in 1999 as a tribute to the century-old tradition of goldbeaters manually making gold leaves at its predecessor company, Yoshitaka Gold Leaf Foundry. The gold foundry was established in 1899 in Kanazawa.⁴</p>
+		</section>
+		
+		<section class="fifth">
+			<h2>Waso Learn</h2>
+			<p class="txt">Waso Learn, Myanmar educational mobile application that develops for the purpose of teaching and learning starting from primary to high school level, has a logo of the moon and a rabbit wearing Myanmar school uniform. It became well-known during COVID-19 pandemic in Myanmar. It seems like the name, 'Waso' is taken from full moon of Waso which means Dhammacakka.⁴</p>
+		</section>
+		
+	</main>
+	
+	<footer>
+		<section class="credits">
+			
+			<p>1. Beard, N. (n.d.). Space odyssey: 10 of the most unusual creatures sent into space. Retrieved from https://www.calvertjournal.com/articles/show/2982/ten-most-unusual-creatures-sent-to-space-geckos-russia-sex</p>
+			<p>2. Moon rabbit. (n.d.). Retrieved March 07, 2021, from https://tvtropes.org/pmwiki/pmwiki.php/Main/MoonRabbit</p>
+			<p>3. Sailor moon (CHARACTER). (2021, March 04). Retrieved March 07, 2021, from https://en.wikipedia.org/wiki/Sailor_Moon_(character)</p>
+			<p>4. Moon rabbit. (2021, March 06). Retrieved March 07, 2021, from https://en.wikipedia.org/wiki/Moon_rabbit</p>
+			<br>
+			<p>Images</p>
+			<p>https://yt3.ggpht.com/ytc/AAUvwnjRZBwpo8pgIJgIclPvafps_5tNt_Zecl1eQzFW=s900-c-k-c0x00ffffff-no-rj</p>
+			<p>https://www.tokyo-solamachi.jp/cms-img/shopinfo/5c226fd60fd83b19dd33560bda9977b953190420181703148.jpg</p>
+			<p>https://nerdist.com/wp-content/uploads/2020/05/sailor-screenshot.jpg</p>
+			<p>https://lh3.googleusercontent.com/proxy/xymaAcr2gGcYXCit4cfYv8JAe60_oqwTZ2cxc7YSmhqv5vkfKEZhyDhFJ5sHtDuA_UgVO7trfDgFWRzWRuHQXN8uqR9_RaHLj6H4XsUQU2IQmn-zNFnTnPy_jI8AHtI</p>
+			<p>https://external-preview.redd.it/EYssfBboJx7aERPqiabqh_yEkhYe16JHiQT2xfKV1Wg.jpg?auto=webp&s=17aefb82f7d2ae17c70256115a30a026d798b242</p>
+
+		</section>
+	</footer>
+	
+</body>
+</html>

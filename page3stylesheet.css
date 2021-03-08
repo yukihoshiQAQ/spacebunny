@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	cursor: url("cursor (1).cur"),auto;
+}
+
+#canvas {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(pics/wp2644006.jpg);
+}
+
+/* CSS Document */
+
