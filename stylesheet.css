@@ -27,27 +27,21 @@ h2
 	font-size: 40px;
 	grid-column: 2/4;
 	grid-row: 2/4;
-	padding: 50px 0 0 290px;
+	padding: 50px 0 0 310px;
 }
 
-h3
+h5
 {
+	position:absolute;
 	color: white;
 	font-family: 'Overpass', sans-serif;
 	font-size: 20px;
-	grid-column: 1/3;
-	grid-row: 1/3;
-	padding: 0 0 60px 380px;
+	margin: 650px 0 0 1150px;
 }
 
-h4
+a
 {
-	color: white;
-	font-family: 'Overpass', sans-serif;
-	font-size: 20px;
-	grid-column: 3/5;
-	grid-row: 2/3;
-	padding: 70px 0 0 240px;
+	text-decoration: none;
 }
 
 .container
@@ -106,22 +100,101 @@ h4
 	}
 	
 }
+
+.space
+{
+	position: absolute;
+	color: white;
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	margin-top: 120px;
+	margin-left: 450px;
+}
+
+.rocket
+{
+	position: absolute;
+	color: white;
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: 710px;
+}
+
+.rabbit2
+{
+	position: absolute;
+	color: white;
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	margin-top: 120px;
+	margin-left: 930px;
+}
  
 .moon
 { 
-	grid-column: 2/3;
-	grid-row: 1/2;
-	margin-top: 200px;
+	margin-top: 260px;
+	margin-left: 520px;
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     height: 100px; 
     width: 100px; 
-    box-shadow: -15px 15px 0 5px white  ; 
+    box-shadow: -15px 15px 0 5px white; 
     border-radius: 50%; 
-  } 
+  }
 
+.star
+{ 
+	margin-top: 120px;
+	margin-left: 460px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    height: 100px; 
+    width: 100px; 
+    box-shadow: -15px 15px 0 5px white; 
+    border-radius: 50%; 
+  }
 
+.rabbit
+{ 
+	margin-top: 260px;
+	margin-left: 400px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    height: 100px; 
+    width: 100px; 
+    box-shadow: -15px 15px 0 5px white; 
+    border-radius: 50%; 
+  }
 
+.abby
+{
+	position: absolute;
+	color: pink;
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	margin: 500px 0 0 230px;
+}
+
+.eilin
+{
+	position: absolute;
+	color: paleturquoise;
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	margin: 500px 0 0 40px;
+}
+
+.colin
+{
+	position: absolute;
+	color: palegoldenrod;
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	margin: 270px 0 0 1340px;
+}
 /* CSS Document */
 
